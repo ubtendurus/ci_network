@@ -9,7 +9,8 @@ Class Index Extends CI_Controller
 	
 	function index()
 	{
-		$this->load->view('index_view');
+        $this->load->helper(array('form'));
+		$this->load->view('login_view');
 	}
 }
 
